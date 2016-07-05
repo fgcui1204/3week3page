@@ -9,7 +9,7 @@ gulp.task('sass', function () {
 });
  
 
-gulp.task('serve', function() {
+gulp.task('default', function() {
   //2. serve at custom port
   var server = gls.static('./', 3030);
   // var server = gls('./', true, 3030);
