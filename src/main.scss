@@ -1,3 +1,305 @@
 body {
-	background: blue;
+  margin: 0 0 0 0;
+  background-color: #FCF9F4;
+}
+
+nav ul {
+  list-style: none;
+  width: 801px;
+  text-align: center;
+}
+
+nav li {
+  float: left; //横向
+  line-height: 45px;
+  padding: 0px 28px;
+}
+
+nav {
+  display: inline-block;
+  height: 87px;
+  width: 801px
+}
+
+nav a {
+  text-decoration: none;
+  color: #B1AFB1;
+  display: block;
+  text-align: center;
+}
+
+.nav-bar {
+  display: inline-block;
+  margin-left: 132px;
+}
+
+.nav-image {
+  float: left;
+  height: 80px;
+  border-right: solid 1px #F1EEE9;
+}
+
+.nav-items {
+  float: left;
+  height: 80px;
+  width: 825px;
+}
+
+.nav-button {
+  float: left;
+  height: 80px;
+  line-height: 75px;
+  padding-left: 45px;
+  border-left: solid 1px #F1EEE9;
+}
+
+.logo {
+  width: 174px;
+  height: 80px;
+  margin-left: 16px;
+}
+
+.donate-button {
+  padding: 0 45px;
+  border: 2px solid #F1EEE9;
+  background: #FCF9F4;
+  color: #000000;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+.first-png {
+  width: 100%;
+  height: 800px
+}
+
+.section1_word {
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 239px 0 66px 0;
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+}
+
+.section_1 {
+  background-image: url("../src/images/hero_image.png");
+  background-size: 100% 100%;
+  height: 650px;
+
+}
+.button_role {
+  text-align: center;
+}
+
+.student_button {
+  display: inline-block;
+  margin-right: 25px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  border: 1px solid white;
+  padding: 10px 72px;
+}
+
+.totor_button {
+  display: inline-block;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  border: 1px solid white;
+  padding: 10px 72px;
+}
+
+.section_2 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  margin-left: 332px;
+  width: 802px;
+}
+
+.mssion {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section2_content {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: x-large;
+}
+
+.button_donate {
+  border: 1px solid #FECC6A;
+  width: 150px;
+  margin: 0 320px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FECC6A;
+}
+
+.section_3 {
+  background-color: #93CFB2;
+  height: 435px;
+
+  .left_image {
+    display: inline-block;
+    margin-left: 385px;
+    margin-top: 85px;
+    margin-right: 40px;
+  }
+
+  .part_content {
+    width: 254px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 115px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    word-spacing: 2px;
+  }
+
+  .part_image {
+    height: 300px;
+  }
+
+  .part_button {
+    border: 1px solid #7EBF9B;
+    background-color: #7EBF9B;
+    width: 150px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+  }
+}
+
+.section_5 {
+  background-color: #81A9CA;
+  height: 435px;
+}
+
+.section_5 {
+  .left_image {
+    display: inline-block;
+    margin-left: 385px;
+    margin-top: 85px;
+    margin-right: 40px;
+  }
+
+  .part_content {
+    width: 254px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 115px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    word-spacing: 2px;
+  }
+
+  .part_image {
+    height: 300px;
+  }
+
+  .part_button {
+    border: 1px solid #688AA7;
+    background-color: #688AA7;
+    width: 150px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+  }
+}
+
+
+.section_4 {
+  height: 435px;
+  background-color: #FECC6A;
+
+  .part_content {
+    display: inline-block;
+    width: 300px;
+    margin-left: 385px;
+    margin-top: 80px;
+    position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    word-spacing: 2px;
+  }
+
+  .section4_image {
+    display: inline-block;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 80px;
+  }
+
+  .part_image {
+    height: 259px;
+  }
+
+  .part_button {
+    border: 1px solid #E9BB63;
+    background-color: #E9BB63;
+    width: 150px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+  }
+}
+
+.section_6 {
+  height: 435px;
+  background-color: white;
+  text-align: center;
+
+  h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 2em;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 150px;
+  }
+
+  li {
+    float: left;
+    padding: 0px 12px;
+    width: 318px;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .number {
+    font-size: 4em;
+  }
+
+  .detail {
+    border: 1px solid #D6D4D1;
+    font-family: 'Oswald', sans-serif;
+    padding: 90px 70px 90px 70px;
+  }
+
+  .hour {
+    color: #93D0B1;
+  }
+
+  .session {
+    color: #F9CB6D;
+  }
+
+  .volunteer {
+    color: #77A4CB
+  }
+
+}
+
+
+.footer {
+  background-color: #4D4E59;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
 }
