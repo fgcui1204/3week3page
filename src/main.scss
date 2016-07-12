@@ -90,6 +90,10 @@ nav a {
 }
 .button_role {
   text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .student_button {
@@ -133,6 +137,10 @@ nav a {
   height: 30px;
   line-height: 30px;
   background-color: #FECC6A;
+  a {
+    text-decoration: none;
+    color: #000000
+  }
 }
 
 .section_3 {
@@ -167,6 +175,11 @@ nav a {
     text-align: center;
     height: 34px;
     line-height: 34px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 
@@ -205,6 +218,10 @@ nav a {
     height: 34px;
     line-height: 34px;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 
@@ -241,6 +258,11 @@ nav a {
     text-align: center;
     height: 34px;
     line-height: 34px;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 

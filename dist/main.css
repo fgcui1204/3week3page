@@ -76,6 +76,9 @@ nav a {
 
 .button_role {
   text-align: center; }
+  .button_role a {
+    text-decoration: none;
+    color: white; }
 
 .student_button {
   display: inline-block;
@@ -113,6 +116,9 @@ nav a {
   height: 30px;
   line-height: 30px;
   background-color: #FECC6A; }
+  .button_donate a {
+    text-decoration: none;
+    color: #000000; }
 
 .section_3 {
   background-color: #93CFB2;
@@ -139,6 +145,9 @@ nav a {
     text-align: center;
     height: 34px;
     line-height: 34px; }
+    .section_3 .part_button a {
+      text-decoration: none;
+      color: white; }
 
 .section_5 {
   background-color: #81A9CA;
@@ -170,6 +179,10 @@ nav a {
   height: 34px;
   line-height: 34px; }
 
+.section_5 a {
+  text-decoration: none;
+  color: white; }
+
 .section_4 {
   height: 435px;
   background-color: #FECC6A; }
@@ -196,6 +209,9 @@ nav a {
     text-align: center;
     height: 34px;
     line-height: 34px; }
+    .section_4 .part_button a {
+      text-decoration: none;
+      color: white; }
 
 .section_6 {
   height: 435px;
