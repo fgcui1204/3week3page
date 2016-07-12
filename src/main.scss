@@ -115,41 +115,47 @@ nav a {
 
 .section_2 {
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 90px;
-  margin-left: 332px;
-  width: 802px;
-}
 
-.mssion {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.section2_content {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: x-large;
-}
-
-.button_donate {
-  border: 1px solid #FECC6A;
-  width: 150px;
-  margin: 0 320px;
-  height: 30px;
-  line-height: 30px;
-  background-color: #FECC6A;
-  a {
-    text-decoration: none;
-    color: #000000
+  .content_2 {
+    width: 802px;
+    margin: 80px auto 90px;
   }
+
+  .mssion {
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .section2_content {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: x-large;
+  }
+
+  .button_donate {
+    border: 1px solid #FECC6A;
+    width: 150px;
+    margin: 0 320px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #FECC6A;
+    a {
+      text-decoration: none;
+      color: #000000
+    }
+  }
+
 }
 
 .section_3 {
   background-color: #93CFB2;
   height: 435px;
 
+  .content_3 {
+    width: 580px;
+    margin: 85px auto 0px;
+  }
+
   .left_image {
     display: inline-block;
-    margin-left: 385px;
     margin-top: 85px;
     margin-right: 40px;
   }
@@ -186,14 +192,16 @@ nav a {
 .section_5 {
   background-color: #81A9CA;
   height: 435px;
-}
 
-.section_5 {
+  .content_5 {
+    width: 580px;
+    margin: 0 auto 0;
+  }
+
   .left_image {
     display: inline-block;
-    margin-left: 385px;
-    margin-top: 85px;
     margin-right: 40px;
+    padding-top: 100px;
   }
 
   .part_content {
@@ -224,15 +232,18 @@ nav a {
   }
 }
 
-
 .section_4 {
   height: 435px;
   background-color: #FECC6A;
 
+  .content_4 {
+    width: 580px;
+    margin: 80px auto 0px;
+  }
+
   .part_content {
     display: inline-block;
     width: 300px;
-    margin-left: 385px;
     margin-top: 80px;
     position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -243,7 +254,7 @@ nav a {
   .section4_image {
     display: inline-block;
     position: absolute;
-    margin-left: 800px;
+    margin-left: 342px;
     margin-top: 80px;
   }
 
@@ -270,6 +281,10 @@ nav a {
   height: 435px;
   background-color: white;
   text-align: center;
+  .content_6 {
+    width: 1300px;
+    margin: 0 auto;
+  }
 
   h2 {
     margin-top: 60px;
